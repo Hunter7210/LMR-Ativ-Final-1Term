@@ -1,28 +1,17 @@
-# LMRFinal
+# LMRFinal; APRESENTAÇÃO/ENTREGA DIA 16/06/23
 
 FAZER SITE DE VENDA DE INGRESSOS
-
 ============================================
-LMR:
-
 HTML
 CSS
 JAVASCRIPT
-
 ==============================================
-SITE COMPLETO.
-Várias abas
-
-==========================================================
-Entrega dia 16/06, APRESENTAÇÃO INDIVIDUAL
-
+SITE COMPLETO (Várias abas)
 ==========================================================
 APRESENTAÇÃO:
-
 Seguir os Pontos criticos.
 Apresentados no doc.
 Foco em explicar o CÓD.
-
 ================================================= 
 PAGINA DE CADASTRO DE EVENTOS:
 
@@ -30,4 +19,3 @@ Pagina de login
 PAGINA DE CADASTRO de Usuario
 Gerador de CARD, (TENTAR QRCODE)
 
-==================================================
