@@ -1,8 +1,41 @@
-nav {
-    background-color: black;
-    height: 8vh;
+body {
+    margin: 0;
 }
-nav img {
+
+nav {
+    width: 100%;
+    background-color: rgba(182, 182, 182, 0.704);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* 
+.lnav ul{
+    display: flex;
+    flex-direction: row;
+} */
+
+.lnav img {
+    display: flex;
     
-    height: 20vh;
+    align-items: center;
+    height: 18vh;
+}
+
+.bnav {
+    align-items: center;
+    height: 8vh;
+    border-radius: 100%;
+    justify-content: space-around;
+}
+
+.bnav input {
+    border-radius: 20%;
 }
