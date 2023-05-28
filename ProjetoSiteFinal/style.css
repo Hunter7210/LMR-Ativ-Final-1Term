@@ -16,7 +16,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
 }
-/* 
+/*0
 .lnav ul{
     display: flex;
     flex-direction: row;
@@ -24,9 +24,8 @@ nav {
 
 .lnav img {
     display: flex;
-    
     align-items: center;
-    height: 18vh;
+    height: 9vh;
 }
 
 .bnav {
