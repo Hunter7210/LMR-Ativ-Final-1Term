@@ -49,3 +49,25 @@ nav {
     align-items: center;
 
 }
+.banner {
+    display: flex;
+    background-image: url(/ProjetoSiteFinal/MOVIE/Design\ sem\ nome\ \(1\).gif);
+    background-position: left center ;
+    background-repeat: no-repeat;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner p{
+    margin-top: 10px;
+}
+
+#MiniCar {
+    max-width: 50%;
+    max-height: 40vh;
+}
+.col {
+    width: 50%;
+    height: 50%;
+}
