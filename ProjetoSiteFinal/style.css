@@ -1,47 +1,111 @@
-* {
+body{
     margin: 0;
     padding:0;
 }
-iframe{
-    width:100%;
-    overflow-y:hidden;
-}
+
+/* header */
 .hnav{
     margin:0;
     background-color: yellow;   
     display:flex;
     justify-content: center;
-}/* 
-.lnav{
-    display:flex;
-    justify-content:space-around;
-    align-items: center;
-    background-color: rgb(48, 48, 48);
 }
-.lvnav {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(255, 255, 255);
-    height: 20vh;
-    list-style:none;
 
-} */
+/* NAVBAR */
+iframe{
+    width: 100%;
+    height: 30vh;
+}
 
+.gnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+    height: 15vh;
+    width: 100%;
 
+    background-color: #c6c6c6;
 
+    overflow: hidden;
 
+}
+.gnav img {
+    height: 14vh;
+}
 
+.linnav ul {
+    display: flex;
+    justify-content: space-around;
+
+    text-decoration: none;
+    width: 40%;
+}
+
+.linnav ul li {
+    display: inline;
+    color: rgb(32, 117, 141);
+    list-style-type: none;
+
+}
+
+.linnav a {
+    margin-left: 33%;
+    text-decoration: none;
+}
+
+.inpnav {
+    width: 43vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.inpnav #cadas {
+
+    border: rgb(255, 255, 255);
+    
+
+    background: #03B2EA;
+    border-radius: 13px;
+    /* CADASTRE-SE */
+
+    font-family: 'Jomolhari';
+    font-style: normal;
+    
+    width: 20vh;
+    font-size: 14px;
+    line-height:33px;
+    
+
+    color: #FFFFFF;
+
+}
+
+.inpnav #log {
+    border: rgb(255, 255, 255);
+    
+    background: #025C79;
+    border-radius: 13px;
+
+    font-family: 'Jomolhari';
+    font-style: normal;
+    
+    width: 20vh;
+    font-size: 14px;
+    line-height:33px;
+
+    color: #FFFFFF;
+}
 
 .banner {
     display: flex;
-    background-image: url(/ProjetoSiteFinal/IMG/jet-engine-371412_1280.jpg);
-    background-position: center center ;
+    background-image: url(/ProjetoSiteFinal/IMG/code-gdf92e228f_1280[1][1].jpg);
+   background-position: left center ;
     background-repeat: no-repeat;
-    max-height: 90vh;
-    max-width: 100%;
     
-    margin: 0;
-    padding:0;
+    max-width: 100%;
 
     
 }
@@ -53,8 +117,9 @@ iframe{
 
 .col{
     display:flex;
-    justify-content: flex-end;
-    padding: 50vh; 
+    justify-content:flex-end;
+
+ 
 }
 .w-100 {
     border-radius: 5%;
@@ -83,4 +148,19 @@ iframe{
     width: 100%;
     height: 90vh;
     
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: black;
+    color: #c6c6c6;
 }
