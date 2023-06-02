@@ -4,17 +4,18 @@ body{
 }
 
 /* header */
-.hnav{
+/* .hnav{
     margin:0;
     background-color: yellow;   
     display:flex;
     justify-content: center;
-}
+} */
 
 /* NAVBAR */
 iframe{
     width: 100%;
     height: 30vh;
+    
 }
 
 .gnav {
@@ -22,7 +23,7 @@ iframe{
     justify-content: space-around;
     align-items: center;
 
-    height: 15vh;
+    height: 23vh;
     width: 100%;
 
     background-color: #c6c6c6;
@@ -99,42 +100,72 @@ iframe{
     color: #FFFFFF;
 }
 
+
 .banner {
     display: flex;
-    background-image: url(/ProjetoSiteFinal/IMG/code-gdf92e228f_1280[1][1].jpg);
-   background-position: left center ;
+    background-image: url(/ProjetoSiteFinal/IMG/jet-engine-371412_1280.jpg);
+    background-position: right center ;
     background-repeat: no-repeat;
     
     max-width: 100%;
-
-    
-}
-.row{
-    display: flex;
-    max-width: 30%;
-    align-items: flex-start;
+    height:85vh;
 }
 
-.col{
-    display:flex;
-    justify-content:flex-end;
-
- 
-}
-.w-100 {
-    border-radius: 5%;
-
-}
 
 .quadrado {
+    
+    flex-direction: column;
     display: flex;
-    align-items:flex-start;
+     
     padding: 1vh;   
     background: lightblue;
     width: 60vh;
     height: 65vh;
-    border-radius: 05%;
+    border-radius: 5%;
 }
+
+.row{
+    margin-right: 10vh;
+    display: flex;
+    max-width: 70%;
+    align-items: center;
+}
+
+.col{
+    margin-left: 10vh;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+ 
+}
+.w-100 {
+    border-radius: 5%;
+    height:50vh;
+}
+.btnC {
+padding:22px;
+text-align: center;
+
+}
+#Cinfo {
+ 
+
+    border: rgb(255, 255, 255);
+    background: #025C79;
+    border-radius: 13px;
+
+    font-family: 'Jomolhari';
+    font-style: normal;
+    
+    width: 70%;
+    font-size: 14px;
+    line-height:33px;
+
+    color: #FFFFFF;
+}
+
+
+
 
 .Meio {
     background: rgb(255, 255, 255);
