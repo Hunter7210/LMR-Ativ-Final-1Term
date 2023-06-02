@@ -4,34 +4,28 @@
 }
 iframe{
     width:100%;
+    overflow-y:hidden;
 }
 .hnav{
     margin:0;
     background-color: yellow;   
     display:flex;
     justify-content: center;
-}
+}/* 
 .lnav{
     display:flex;
     justify-content:space-around;
     align-items: center;
-    
+    background-color: rgb(48, 48, 48);
+}
+.lvnav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:rgb(255, 255, 255);
-    background-color: rgb(45, 45, 45);
-}
-.lvnav{
-    display:flex;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-}
-.lvnav img a{
-    width:20vh;
     height: 20vh;
+    list-style:none;
 
+} */
 
-}
 
 
 
@@ -40,13 +34,15 @@ iframe{
 
 .banner {
     display: flex;
-    background-image: url(/ProjetoSiteFinal/MOVIE/GifRobot.gif);
-    background-position: left center ;
+    background-image: url(/ProjetoSiteFinal/IMG/jet-engine-371412_1280.jpg);
+    background-position: center center ;
     background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    max-height: 90vh;
+    max-width: 100%;
+    
+    margin: 0;
+    padding:0;
+
     
 }
 .row{
@@ -61,7 +57,7 @@ iframe{
     padding: 50vh; 
 }
 .w-100 {
-    border-radius: 05%;
+    border-radius: 5%;
 
 }
 
@@ -76,14 +72,14 @@ iframe{
 }
 
 .Meio {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     width: 100%;
     height: 90vh;
     padding: 10vh;
     padding-top: 2vh;
 }
 .MaisMeio{
-    background: rgb(255, 255, 255);
+    background: rgb(27, 26, 26);
     width: 100%;
     height: 90vh;
     
