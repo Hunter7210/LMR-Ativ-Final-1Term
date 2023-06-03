@@ -118,17 +118,19 @@ iframe{
     display: flex;
      
     padding: 1vh;   
-    background: lightblue;
+    background: rgb(127, 152, 160);
     width: 60vh;
     height: 65vh;
     border-radius: 5%;
+    margin-right: 07vh;
 }
 
 .row{
-    margin-right: 10vh;
+    
     display: flex;
     max-width: 70%;
     align-items: center;
+    
 }
 
 .col{
