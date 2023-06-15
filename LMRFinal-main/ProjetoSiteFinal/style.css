@@ -448,12 +448,12 @@ iframe {
     height: 82vh;
 
     display: flex;
- 
+
     justify-content: space-around;
-    
+    padding-top: 5vh;
 }
 
-.Cimg img{
+.Cimg img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -462,12 +462,121 @@ iframe {
     height: 80vh;
     margin: 0;
 }
-.CEsc {
+
+.CEsc h2 {
+    display: flex;
+
+    font-size: 2vh;
+    text-decoration: line-through;
+
+    color: gray;
+
+}
+
+.CEsc h1 {
+    font-size: 5vh;
+    text-transform: uppercase;
+}
+
+.Cstars {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.Cstars img {
+    margin-left: 1vh;
+    width: 3vh;
+    height: 3vh;
+}
+
+.Cstars h3 {
+    margin-left: 1vh;
+    font-size: 2vh;
+}
+
+#CPrice {
+    font-size: 5vh;
+
+}
+
+.Cinputs {
+    height: 30vh;
+
+    font-size: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.n°iNGR {
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
+.Cbtn {
+    align-items: end;
+    justify-content: space-around;
+}
 
+#n°iNGR {
+    width: 20%;
+    height: 4vh;
+
+    border-radius: 70px;
+
+    font-size: 2vh;
+
+    text-align: center;
+    align-items: center;
+}
+
+#Cbtn {
+    width: 80%;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 70px;
+    align-items: center;
+    background-color: yellow;
+}
+
+.meioesd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cmeio {
+
+    width: 80%;
+    height: 80vh;
+
+    color: #FFFFFF;
+    background-color: #0f8999;
+    align-items: center;
+    justify-content: center;
+}
+
+.CMtit {
+    width: 50%;
+    height: 40vh;
+    align-items: center;
+}
+.CMtit h1 {
+
+    font-size: 5vh;
+    text-transform: uppercase;
+}
+.CIframe {
+    width: 50%;
+        
+}
 
 
 .footer {
