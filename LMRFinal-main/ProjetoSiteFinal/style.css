@@ -553,31 +553,44 @@ iframe {
 }
 
 .Cmeio {
-
     width: 80%;
-    height: 80vh;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
 
     color: #FFFFFF;
     background-color: #0f8999;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .CMtit {
-    width: 50%;
+    width: 90%;
     height: 40vh;
-    align-items: center;
-}
-.CMtit h1 {
 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.CMtit h1 {
     font-size: 5vh;
     text-transform: uppercase;
-}
-.CIframe {
-    width: 50%;
-        
+    text-align: center;
+    align-items: center;
+
 }
 
+.CFimg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CFimg img {
+    width: 25%;
+    height: 40vh;
+
+}
 
 .footer {
     background-color: black;
