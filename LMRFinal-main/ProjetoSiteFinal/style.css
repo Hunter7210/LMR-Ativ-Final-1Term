@@ -443,30 +443,46 @@ iframe {
 }
 
 /* COMPRA */
+
+.conteudo {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 2%, rgba(9, 9, 121, 1) 26%, rgba(0, 212, 255, 1) 77%);
+    color: #FFFFFF
+}
+
 .Ccom {
+    padding-top: 70px;
+
     width: 100%;
-    height: 82vh;
+    height: 90vh;
 
     display: flex;
 
     justify-content: space-around;
-    padding-top: 5vh;
+
+    align-items: center;
 }
 
 .Cimg img {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5%;
 
     width: 100%;
     height: 80vh;
     margin: 0;
 }
 
+.CEsc {
+    justify-content: space-around;
+
+}
+
 .CEsc h2 {
     display: flex;
-
-    font-size: 2vh;
+    align-items: center;
+    font-size: 4vh;
     text-decoration: line-through;
 
     color: gray;
@@ -474,7 +490,7 @@ iframe {
 }
 
 .CEsc h1 {
-    font-size: 5vh;
+    font-size: 9vh;
     text-transform: uppercase;
 }
 
@@ -487,24 +503,22 @@ iframe {
 
 .Cstars img {
     margin-left: 1vh;
-    width: 3vh;
-    height: 3vh;
+    width: 5vh;
+    height: 5vh;
 }
 
 .Cstars h3 {
     margin-left: 1vh;
-    font-size: 2vh;
+    font-size: 3vh;
 }
 
 #CPrice {
-    font-size: 5vh;
-
+    font-size: 7vh;
 }
 
 .Cinputs {
-    height: 30vh;
-
-    font-size: 2vh;
+    height: 50vh;
+    font-size: 3vh;
 
     display: flex;
     flex-direction: column;
@@ -528,17 +542,18 @@ iframe {
     height: 4vh;
 
     border-radius: 70px;
-
-    font-size: 2vh;
+    border: none;
+    font-size: 3vh;
 
     text-align: center;
     align-items: center;
 }
 
 #Cbtn {
-    width: 80%;
-    height: 5vh;
-    font-size: 2vh;
+    border: none;
+    width: 100%;
+    height: 8vh;
+    font-size: 3vh;
     border-radius: 70px;
     align-items: center;
     background-color: yellow;
@@ -553,28 +568,34 @@ iframe {
 }
 
 .Cmeio {
-    width: 80%;
-    height: 90vh;
+    width: 90%;
+    height: 110vh;
+
     display: flex;
+    align-items: center;
     justify-content: space-around;
 
     color: #FFFFFF;
-    background-color: #0f8999;
-
 }
 
 .CMtit {
     width: 90%;
-    height: 40vh;
-
-    display: flex;
-    flex-direction: column;
+    height: 80vh;
+    align-items: center;
 }
 
 
 .CMtit h1 {
-    font-size: 5vh;
+    font-size: 7vh;
     text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+
+}
+
+.CMtit h3 {
+    font-size: 3vh;
+    column-count: 2;
     text-align: center;
     align-items: center;
 
@@ -588,7 +609,93 @@ iframe {
 
 .CFimg img {
     width: 25%;
-    height: 40vh;
+    height: 50vh;
+}
+
+.CFtit {
+    font-size: 3vh;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+
+}
+
+/* MAIS INFORMAÇÕES */
+.conteudo {
+    height: 120vh;
+}
+
+.MBmeio {
+    text-transform: uppercase;
+    padding: 4vh;
+    font-size: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MBcards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.MBcardfundo {
+    margin: 30px;
+
+    width: 45%;
+    height: 60vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 1vh;
+
+    background-color: gray;
+    border-radius: 50px;
+}
+
+.MBcardimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MBcardimg img {
+    width: 55%;
+    height: 55vh;
+    border-radius: 40px;
+}
+
+.MBcardtit {
+    width: 40%;
+    height: 50vh;
+
+    text-align: center;
+
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.MBcardtit h1 {
+    font-size: 6vh;
+    text-align: center;
+}
+
+.MBcardtit h2 {
+    font-size: 2vh;
+}
+
+.MBcardbtn input {
+    border: none;
+    width: 100%;
+    height: 7vh;
+    font-size: 3vh;
+    border-radius: 60px;
+    align-items: center;
+    background-color: yellow;
 
 }
 
