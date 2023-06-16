@@ -622,7 +622,8 @@ iframe {
 
 /* MAIS INFORMAÇÕES */
 .conteudo {
-    height: 120vh;
+
+    height: auto;
 }
 
 .MBmeio {
@@ -638,23 +639,23 @@ iframe {
 .MBcards {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .MBcardfundo {
-    margin: 30px;
-
-    width: 45%;
-    height: 60vh;
+    margin: 2%;
+    width: 40%;
+    height: 45vh;
 
     display: flex;
     justify-content: space-around;
     align-items: stretch;
     padding: 1vh;
 
-    background-color: gray;
-    border-radius: 50px;
+    background-color: rgba(199, 199, 199, 0.839);
+    border-radius: 35px;
 }
 
 .MBcardimg {
@@ -665,13 +666,12 @@ iframe {
 
 .MBcardimg img {
     width: 55%;
-    height: 55vh;
-    border-radius: 40px;
+    height: 40vh;
+    border-radius: 30px;
 }
 
 .MBcardtit {
     width: 40%;
-    height: 50vh;
 
     text-align: center;
 
@@ -680,7 +680,7 @@ iframe {
 }
 
 .MBcardtit h1 {
-    font-size: 6vh;
+    font-size: 5vh;
     text-align: center;
 }
 
