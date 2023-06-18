@@ -15,7 +15,6 @@ body {
 iframe {
     width: 100%;
     height: 30vh;
-
 }
 
 .gnav {
@@ -105,14 +104,16 @@ iframe {
 
 .banner {
     display: flex;
-    background-image: url(/LMRFinal-main/ProjetoSiteFinal/IMG/jet-engine-371412_1280.jpg);
-    background-position: right center;
+    background-image: url(/LMRFinal-main/ProjetoSiteFinal/IMG/copia.png);
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: 100%;
 
     width: 100%;
-    height: 81vh;
+    height: 85vh;
 }
+
+@media screen {}
 
 /* CARROSEL */
 .quadrado {
@@ -123,9 +124,10 @@ iframe {
     padding: 1vh;
     background: rgb(127, 152, 160);
     width: 80%;
-    height: 65vh;
+    height: 62vh;
     border-radius: 5%;
     margin-right: 5vh;
+    margin: 0;
 }
 
 .row {
@@ -147,14 +149,25 @@ iframe {
 .w-100 {
     border-radius: 5%;
     height: 45vh;
+
 }
 
 .btnC {
     width: 100%;
-    height: 10vh;
+
     display: flex;
+
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.btnC p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+
 }
 
 #Cinfo {
@@ -166,8 +179,8 @@ iframe {
     font-family: 'Jomolhari';
     font-style: normal;
 
-    font-size: 2vh;
-    line-height: 3vh;
+    font-size: 3vh;
+    line-height: 6vh;
 
     color: #FFFFFF;
 }
@@ -181,17 +194,28 @@ iframe {
     background-image: url(/ProjetoSiteFinal/IMG/laptop-5673901_1280.jpg);
     background-position: center center;
     background-size: auto;
+
 }
 
-
-
 .carousel-item-active {
+
     width: 100%;
     height: 40vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+}
+
+.carousel-item-active img {
+    height: 30vh;
+    width: 50vh;
+}
+
+.carousel-inner1 {
+    background: linear-gradient(270deg, #00D4FF 11.46%, #00D4FF 16.15%, #090979 53.65%, #020024 90.1%);
+    align-items: center;
+
 }
 
 .d-block {
@@ -209,35 +233,101 @@ iframe {
 
 .event {
     width: 100%;
-    height: 85vh;
-    background-color: #025C79;
-    padding: 65px;
-    padding-bottom: 25px;
-    padding-top: 35px;
+    height: 165vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 8vh;
+    margin-bottom: 35px;
+    background: linear-gradient(270deg, #00D4FF 11.46%, #00D4FF 16.15%, #090979 53.65%, #020024 90.1%);
+
 }
 
 .bckevent {
+    border-radius: 30px;
     background-color: #03B2EA;
     width: 100%;
-    height: 74vh;
+    height: 65vh;
 
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
 
     padding: 8vh;
 }
 
+.imgevent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .imgevent img {
     height: 60vh;
-    width: 60vh;
+    width: 85vh;
 }
 
 .textevent {
-    text-align: justify;
-    width: 50%;
-    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
+
+.textevent h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.textevent P {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-size: 15px;
+
+}
+
+.btnPEven {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.btnPEven1 {
+    width: 90%;
+    display: flex;
+    justify-content: start;
+}
+
+.QuadApo {
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.minQuad {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ImgApoi {
+    display: flex;
+
+}
+
+.ImgApoi img {
+    width: 100%;
+    height: 75vh;
+}
+
+
 
 /* CADASTRO / CADASTRO2 */
 .cadastro {
@@ -699,9 +789,4 @@ iframe {
     align-items: center;
     background-color: yellow;
 
-}
-
-.footer {
-    background-color: black;
-    color: #c6c6c6;
 }
