@@ -55,6 +55,10 @@ iframe {
     text-decoration: none;
 }
 
+#menuHamb {
+    display: none;
+}
+
 .inpnav {
     width: 43vh;
     display: flex;
@@ -113,7 +117,32 @@ iframe {
     height: 85vh;
 }
 
-@media screen {}
+/* 
+@media screen and (min-width: 700px) {
+    #menuHamb {
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 700px) {
+    .inpnav {
+        display: none;
+    }
+
+    /*     #menuHamb {
+        display: contents;
+        width: 40%;
+        height: 20vh;
+    } */
+
+    .gnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
 
 /* CARROSEL */
 .quadrado {
@@ -130,12 +159,17 @@ iframe {
     margin: 0;
 }
 
-.row {
-    /* --bs-gutter-x: none; */
-    /*     display: flex; */
-    /* max-width: 70%; */
-    /* align-items: center; */
+@media screen and (max-width: 700px) {
+    .banner {
+        display: flex;
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+    }
 
+    .quadrado {
+        display: none;
+    }
 }
 
 .col {
@@ -143,13 +177,11 @@ iframe {
     display: flex;
     justify-content: end;
     align-items: center;
-
 }
 
 .w-100 {
     border-radius: 5%;
     height: 45vh;
-
 }
 
 .btnC {
@@ -185,20 +217,7 @@ iframe {
     color: #FFFFFF;
 }
 
-
-.blur {
-    width: 100%;
-    height: 50vh;
-
-    filter: blur(2px);
-    background-image: url(/ProjetoSiteFinal/IMG/laptop-5673901_1280.jpg);
-    background-position: center center;
-    background-size: auto;
-
-}
-
 .carousel-item-active {
-
     width: 100%;
     height: 40vh;
     display: flex;
@@ -223,12 +242,28 @@ iframe {
     max-width: 60vh;
 
     border-radius: 10%;
-    /*     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row; */
+}
 
+@media screen and (max-width: 700px) {
+    .carousel-item-active {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        align-items: center;
 
+        width: 100%;
+        height: 85vh;
+    }
+
+    .carousel-item-active img {
+        width: 55vh;
+        height: 25vh;
+    }
+
+    .d-block {
+        max-width: 100%;
+        height: 100vh;
+    }
 }
 
 .event {
@@ -258,6 +293,19 @@ iframe {
     padding: 8vh;
 }
 
+.bckevent1 {
+    border-radius: 30px;
+    background-color: #03B2EA;
+    width: 100%;
+    height: 65vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8vh;
+}
+
 .imgevent {
     display: flex;
     align-items: center;
@@ -265,6 +313,17 @@ iframe {
 }
 
 .imgevent img {
+    height: 60vh;
+    width: 85vh;
+}
+
+.imgevent1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgevent1 img {
     height: 60vh;
     width: 85vh;
 }
@@ -300,6 +359,56 @@ iframe {
     width: 90%;
     display: flex;
     justify-content: start;
+}
+
+@media screen and (max-width: 700px) {
+    .event {
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+
+        padding: 1vh;
+    }
+
+    .bckevent {
+        padding: 4vh;
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 20px;
+
+        height: auto;
+    }
+
+    .bckevent1 {
+        padding: 4vh;
+        display: flex;
+        flex-flow: column-reverse;
+        margin-bottom: 20px;
+
+        height: auto;
+    }
+
+    .imgevent img {
+        width: 100%;
+    }
+
+    .imgevent1 img {
+        width: 100%;
+    }
+
+    .btnPEven {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnPEven1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 .QuadApo {
@@ -347,7 +456,7 @@ iframe {
 
     /* position: absolute; */
     width: 60vh;
-    height: 65vh;
+    height: 85vh;
 
     background: linear-gradient(209.73deg, rgba(23, 67, 221, 0.46) 32.15%, rgba(113, 144, 254, 0.49) 69.39%);
     border-radius: 27px;
@@ -355,6 +464,8 @@ iframe {
     padding: 1%;
     background-color: #025C79;
 }
+
+
 
 .cinput {
     display: flex;
@@ -456,6 +567,16 @@ iframe {
     padding: 0;
 }
 
+@media screen and (max-width: 700px) {
+    .cadastro {
+        height: 110vh;
+    }
+
+    .container1 {
+        height: auto;
+    }
+}
+
 /* LOGIN */
 
 .login {
@@ -520,6 +641,13 @@ iframe {
     color: #FFFFFF;
 }
 
+.container2 {
+    display: flex;
+    flex-flow: column;
+    height: 75vh;
+}
+
+
 .linput input {
 
     height: 10vh;
@@ -534,6 +662,24 @@ iframe {
     font-weight: 500;
 }
 
+.btn2 {
+    width: 50%;
+
+}
+
+@media screen and (max-width: 700px) {
+    .container2 {
+        display: flex;
+        flex-flow: column;
+        height: 75vh;
+    }
+
+    .btn2 {
+        width: 50%;
+
+    }
+}
+
 /* COMPRA */
 
 .conteudo {
@@ -543,15 +689,10 @@ iframe {
 }
 
 .Ccom {
-    padding-top: 70px;
-
     width: 100%;
-    height: 90vh;
 
     display: flex;
-
     justify-content: space-around;
-
     align-items: center;
 }
 
@@ -595,8 +736,8 @@ iframe {
 
 .Cstars img {
     margin-left: 1vh;
-    width: 5vh;
-    height: 5vh;
+    width: 8vh;
+    height: 8vh;
 }
 
 .Cstars h3 {
@@ -609,7 +750,7 @@ iframe {
 }
 
 .Cinputs {
-    height: 50vh;
+    height: 45vh;
     font-size: 3vh;
 
     display: flex;
@@ -622,6 +763,8 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    margin-bottom: 1vh;
 }
 
 .Cbtn {
@@ -661,7 +804,6 @@ iframe {
 
 .Cmeio {
     width: 90%;
-    height: 110vh;
 
     display: flex;
     align-items: center;
@@ -672,7 +814,7 @@ iframe {
 
 .CMtit {
     width: 90%;
-    height: 80vh;
+    /*  height: 80vh; */
     align-items: center;
 }
 
@@ -687,7 +829,6 @@ iframe {
 
 .CMtit h3 {
     font-size: 3vh;
-    column-count: 2;
     text-align: center;
     align-items: center;
 
@@ -709,6 +850,42 @@ iframe {
     text-transform: uppercase;
     text-align: center;
     align-items: center;
+
+}
+
+.Cfinal {
+    display: flex;
+    flex-flow: column;
+    height: auto;
+}
+
+@media screen and (max-width:700px) {
+    .Ccom {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+    }
+
+    .Cimg img {
+        height: 78vh;
+    }
+
+    .Cmeio {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .meioesd {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .CMinf {
+        font-size: 3vh;
+    }
+
 
 }
 
