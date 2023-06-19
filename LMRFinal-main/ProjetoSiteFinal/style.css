@@ -662,10 +662,6 @@ iframe {
     font-weight: 500;
 }
 
-.btn2 {
-    width: 50%;
-
-}
 
 @media screen and (max-width: 700px) {
     .container2 {
@@ -869,6 +865,7 @@ iframe {
 
     .Cimg img {
         height: 78vh;
+        margin-top: 5vh;
     }
 
     .Cmeio {
@@ -885,7 +882,6 @@ iframe {
     .CMinf {
         font-size: 3vh;
     }
-
 
 }
 
@@ -966,4 +962,18 @@ iframe {
     align-items: center;
     background-color: yellow;
 
+}
+
+@media screen and (max-width:700px) {
+    .MBcards {
+        display: flex;
+        flex-flow: column;
+
+        width: 100%;
+    }
+
+    .MBcardfundo {
+        width: 95%;
+        height: auto;
+    }
 }
